@@ -11,7 +11,7 @@
           Welcome to my PWA app
         </h1>
         <p class="subheading font-weight-regular">
-          This is just a template for PWA app make with vuejs and vuetify.
+          This is just a template for PWA app, made with vuejs and vuetify.
         </p>
       </v-col>
     </v-row>

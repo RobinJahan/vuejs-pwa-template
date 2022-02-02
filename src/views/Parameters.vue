@@ -1,9 +1,8 @@
 <template>
   <div class="parameters">
-    <v-row class="text-center">
-      <v-col class="mt-12">
-        <p>This is the parameters view</p>
-      </v-col>
-    </v-row>
+    <v-container>
+      <v-row class=" justify-center mt-12">This is the parameters view</v-row>
+    </v-container>
+    
   </div>
 </template>

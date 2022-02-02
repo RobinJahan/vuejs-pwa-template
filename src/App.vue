@@ -1,16 +1,14 @@
 <template>
   <v-app>
-    <v-app-bar app dark dense color="deep-purple">
+    <v-app-bar app dark color="deep-purple" width="100vw" elevation="5">
       <v-toolbar-title>{{$route.name}}</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
     </v-app-bar>
-        
-    <v-sheet :dark=darkTheme min-height="100vh">
-      <v-navigation-drawer
+    <v-navigation-drawer
         v-model="drawer"
           absolute
-          right
+          left
           temporary
           dark>
           <v-list-item>
@@ -59,7 +57,8 @@
             </v-list-item>
           </v-list>
             
-        </v-navigation-drawer>
+        </v-navigation-drawer>    
+     <v-sheet :dark=darkTheme min-height="100vh">
 
       <v-main>
         <router-view/>
@@ -100,13 +99,6 @@ export default {
     goParameters(){
       this.$router.push("Parameters").catch(()=>{});
     }
-
   }
 };
 </script>
-
-<style>
-html {
-    overflow: hidden !important;
-}
-</style>
