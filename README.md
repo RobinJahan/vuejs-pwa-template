@@ -1,3 +1,5 @@
+Just a simple PWA template with Vuejs and Vuetify.
+
 # template-pwa
 
 ## Project setup
