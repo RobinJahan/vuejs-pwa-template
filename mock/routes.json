@@ -1,0 +1,6 @@
+{
+    "/characters": "/characters",
+    "/characters/:id": "/characters?id=:id",
+    "/weapons": "/weapons",
+    "/weapons/:id": "/weapons?id=:id"
+}

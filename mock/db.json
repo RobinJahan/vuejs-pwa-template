@@ -1,0 +1,88 @@
+{
+    "characters": [
+        {
+            "id": 0,
+            "name": "Barraza",
+            "strength": 6,
+            "dexterity": 4,
+            "Defence": 8,
+            "speed": 4,
+            "weapons": [
+                "Axe",
+                "Blasters"
+            ],
+            "img": "https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/6f/Barraza.png/revision/latest?cb=20210315012052"
+        },
+        {
+            "id": 1,
+            "name": "Mordex",
+            "strength": 6,
+            "dexterity": 4,
+            "Defence": 5,
+            "speed": 7,
+            "weapons": [
+                "Scythe",
+                "Gauntlets"
+            ],
+            "img": "https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/2d/Mordex.png/revision/latest?cb=20180620204144"
+        },
+        {
+            "id": 2,
+            "name": "Ada",
+            "strength": 6,
+            "dexterity": 7,
+            "Defence": 3,
+            "speed": 6,
+            "weapons": [
+                "Blasters",
+                "Spear"
+            ],
+            "img": "https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/f9/Ada.png/revision/latest?cb=20210315001847"
+        },
+        {
+            "id": 3,
+            "name": "Jhala",
+            "strength": 7,
+            "dexterity": 7,
+            "Defence": 3,
+            "speed": 5,
+            "weapons": [
+                "Axe",
+                "Sword"
+            ],
+            "img": "https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/9a/Jhala.png/revision/latest?cb=20210315014544"
+        }
+    ],
+    "weapons": [
+        {
+            "id": 0,
+            "name": "Axe",
+            "icon": "https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/d6/Axe_Icon.png/revision/latest/scale-to-width-down/75?cb=20180724180339"
+        },
+        {
+            "id": 1,
+            "name": "Blasters",
+            "icon": "https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/a3/Blasters_Icon.png/revision/latest/scale-to-width-down/75?cb=20180724180329"
+        },
+        {
+            "id": 2,
+            "name": "Gauntlets",
+            "icon": "https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/85/Gauntlets_Icon.png/revision/latest/scale-to-width-down/75?cb=20180724180337"
+        },
+        {
+            "id": 3,
+            "name": "Scythe",
+            "icon": "https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/ea/Scythe_Icon.png/revision/latest/scale-to-width-down/75?cb=20180724180345"
+        },
+        {
+            "id": 4,
+            "name": "Spear",
+            "icon": "https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/26/Spear_Icon.png/revision/latest/scale-to-width-down/75?cb=20180724180347"
+        },
+        {
+            "id": 5,
+            "name": "Sword",
+            "icon": "https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/32/Sword_Icon.png/revision/latest/scale-to-width-down/75?cb=20180724180350"
+        }
+    ]
+}
