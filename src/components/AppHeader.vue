@@ -22,7 +22,7 @@
 
             <v-list dense nav>
 
-                <v-list-item @click="goHome">
+                <v-list-item @click="goTo('/')">
 
                     <v-list-item-icon>
                         <v-icon>mdi-home</v-icon>
@@ -32,7 +32,16 @@
                     </v-list-item-content>
                 </v-list-item>
 
-                <v-list-item @click="goParameters"> 
+                <v-list-item @click="goTo('Camera')"> 
+                    <v-list-item-icon>
+                        <v-icon>mdi-camera</v-icon>
+                    </v-list-item-icon>
+                    <v-list-item-content>
+                        <v-list-item-title>Camera</v-list-item-title>
+                    </v-list-item-content>
+                </v-list-item>
+
+                <v-list-item @click="goTo('Parameters')"> 
                     <v-list-item-icon>
                         <v-icon>mdi-cog</v-icon>
                     </v-list-item-icon>
@@ -79,12 +88,9 @@ export default {
         toggleTheme(){
             this.$emit('changeTheme', !this.dark)
         },
-        goHome(){
-            this.$router.push("/").catch(()=>{});
+        goTo(view){
+            this.$router.push(view).catch(()=>{});
         },
-        goParameters(){
-            this.$router.push("Parameters").catch(()=>{});
-        }
     }
 }
 </script>

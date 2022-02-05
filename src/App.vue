@@ -1,14 +1,14 @@
 <template>
     <v-app>
-        <AppHeader
+        <AppHeader 
         :dark=darkTheme 
-        @changeTheme="changeTheme"/>
-        <v-sheet :dark=darkTheme min-height="100vh">
+        @changeTheme="changeTheme"
+        />
 
-        <v-main>
-            <router-view/>
-        </v-main>
-        
+        <v-sheet :dark=darkTheme min-height="100vh">
+            <v-main>
+                <router-view/>
+            </v-main>
         </v-sheet>
     </v-app>
 </template>
