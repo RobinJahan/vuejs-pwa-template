@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Parameters from '../views/Parameters.vue'
+import NotFound from '../views/NotFound.vue'
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,11 @@ const routes = [
     path: '/parameters',
     name: 'Parameters',
     component: Parameters
+  },
+  {
+    path: "/*",
+    name: 'Not found :(',
+    component: NotFound
   }
 ]
 
