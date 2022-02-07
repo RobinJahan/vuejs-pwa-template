@@ -1,6 +1,7 @@
 <template>
     <v-app>
         <AppHeader 
+        v-if="$route.name !== 'Login'"
         :dark=darkTheme 
         @changeTheme="changeTheme"
         />

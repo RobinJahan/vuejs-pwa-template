@@ -4,10 +4,16 @@ import Home from '../views/Home.vue'
 import Parameters from '../views/Parameters.vue'
 import NotFound from '../views/NotFound.vue'
 import Camera from '../views/Camera.vue'
+import Login from '../views/Login.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
+  {
+    path: '/login',
+    name: 'Login',
+    component: Login
+  },
   {
     path: '/',
     name: 'Home',
